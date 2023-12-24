@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suitmedia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -10px; /* Memberikan margin negatif untuk menangani ruang antar elemen */
+    }
+  
+    .col {
+      flex: 0 0 calc(25% - 20px); /* Mengatur lebar kolom menjadi 25% dan memberikan margin sebesar 10px di setiap sisi */
+      box-sizing: border-box; /* Memastikan margin dan padding tidak menambah lebar elemen */
+      padding: 10px; /* Memberikan padding 10px di dalam kolom */
+    }
+  
+    .post__item {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+  
+    .post-img img {
+      width: 100%; /* Gambar mengisi lebar sepenuhnya */
+      height: auto; /* Menjaga aspek rasio gambar */
+      border-bottom: 1px solid #ddd; /* Memberikan garis pemisah antara gambar dan informasi berita */
+    }
+  
+    .post-info {
+      padding: 15px;
+    }
+  
+    .post-time,
+    .post-title a,
+  .post-read-more a {
+    color: black; 
+    text-decoration: none; 
+  }
+  
+    .post-description {
+      margin: 0; /* Menghapus margin default */
+    }
+  
+    .post-read-more {
+      display: block;
+      padding: 10px;
+      text-align: right;
+    }
+  
+    .link-text {
+      display: inline-block;
+    }
+  
+    .icon-angle-right {
+      margin-left: 5px;
+    }
+  </style>
+    <header id="site-header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo-white.081d3ce.png" alt="">
+            </div>
+            <nav>
+                <a href="#">Work</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#" class="active">Ideas</a>
+                <a href="#">Careers</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+<body>
+    <div class="content">
+        <section class="banner">
+            <div class="parallax">
+                <img src="img/ideas.jpg" alt="Banner Image">
+                <div class="banner-text">
+                    <h1>IDEAS</h1>
+                    <p>Where all our great things begin.</p>
+                </div>
+            </div>
+        </section>
+        <section class="news-list">
+            <div class="info-bar">
+                <div class="pagination-info">
+                    Showing 1-10 of 100
+                </div>
+                <div class="show-per-page" style="margin-left: 300px;">
+                    Show per page: 
+                    <select>
+                        <option>10</option>
+                        <option>20</option>
+                        <option>50</option>
+                    </select>
+                </div>
+                <div class="sort-by">
+                    Sort by: 
+                    <select>
+                        <option>Newest</option>
+                        <option>Oldest</option>
+                    </select>
+                </div>
+            </div>
+    
+        </section>
+    </div>
+    <div class="row">
+        <!-- Kolom 1 -->
+  <div class="col">
+    <div class="post__item" data-v-60cf8313 data-v-aabb82a2>
+      <a href="/ideas/manfaat-layanan-digital-agency-untuk-memajukan-bisnis" class="post-img" data-v-60cf8313>
+        <img src="https://suitmedia.static-assets.id/storage/files/6239/conversions/shutterstock_758829157-medium.jpg" class="fit-img" />
+      </a>
+      <div class="post-info" data-v-60cf8313>
+        <time class="post-time" data-v-60cf8313>11 September 2023</time>
+        <h3 class="post-title" data-v-60cf8313>
+          <a href="/ideas/manfaat-layanan-digital-agency-untuk-memajukan-bisnis" data-v-60cf8313>Manfaat Layanan Digital Agency Untuk Memajukan Bisnis</a>
+        </h3>
+      </div>
+      <a href="/ideas/manfaat-layanan-digital-agency-untuk-memajukan-bisnis" class="post-read-more" data-v-60cf8313>
+        <span class="link-text" data-v-60cf8313>
+         
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Kolom 2 -->
+  <div class="col">
+    <div class="post__item" data-v-60cf8313 data-v-aabb82a2>
+      <a href="/ideas/mockup-design-pengertian-manfaat-dan-contoh" class="post-img" data-v-60cf8313>
+        <img src="https://suitmedia.static-assets.id/storage/files/6237/conversions/shutterstock_1565680594-medium.jpg" class="fit-img" />
+      </a>
+      <div class="post-info" data-v-60cf8313>
+        <time class="post-time" data-v-60cf8313>8 September 2023</time>
+        <h3 class="post-title" data-v-60cf8313>
+          <a href="/ideas/mockup-design-pengertian-manfaat-dan-contoh" data-v-60cf8313>Mockup Design: Pengertian, Manfaat, dan Contoh</a>
+        </h3>
+        
+      </div>
+      <a href="/ideas/mockup-design-pengertian-manfaat-dan-contoh" class="post-read-more" data-v-60cf8313>
+        <span class="link-text" data-v-60cf8313>
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Kolom 3 -->
+  <div class="col">
+    <div class="post__item" data-v-60cf8313 data-v-aabb82a2>
+      <a href="/ideas/color-rgb-vs-cymk-apa-perbedaannya" class="post-img" data-v-60cf8313>
+        <img src="https://suitmedia.static-assets.id/storage/files/6235/conversions/Shutterstock_2162975745-medium.jpg" class="fit-img" />
+      </a>
+      <div class="post-info" data-v-60cf8313>
+        <time class="post-time" data-v-60cf8313>7 September 2023</time>
+        <h3 class="post-title" data-v-60cf8313>
+          <a href="/ideas/color-rgb-vs-cymk-apa-perbedaannya" data-v-60cf8313>Color RGB vs. CYMK: Apa Perbedaannya?</a>
+        </h3>
+        
+      </div>
+      <a href="/ideas/color-rgb-vs-cymk-apa-perbedaannya" class="post-read-more" data-v-60cf8313>
+        <span class="link-text" data-v-60cf8313>
+        </span>
+      </a>
+    </div>
+  </div>
+
+        <!-- Kolom 4 -->
+  <div class="col">
+    <div class="post__item" data-v-60cf8313 data-v-aabb82a2>
+      <a href="/ideas/pentingnya-procurement-untuk-transformasi-digital" class="post-img" data-v-60cf8313>
+        <img src="https://suitmedia.static-assets.id/storage/files/6217/conversions/shutterstock_622728959-medium.jpg" class="fit-img" />
+      </a>
+      <div class="post-info" data-v-60cf831
+      <time class="post-time" data-v-60cf8313>5 September 2023</time>
+        <h3 class="post-title" data-v-60cf8313>
+          <a href="/ideas/pentingnya-procurement-untuk-transformasi-digital" data-v-60cf8313>Pentingnya Procurement untuk Transformasi Digital</a>
+        </h3>
+        
+      </div>
+      <a href="/ideas/pentingnya-procurement-untuk-transformasi-digital" class="post-read-more" data-v-60cf8313>
+        <span class="link-text" data-v-60cf8313>
+        </span>
+      </a>
+    </div>
+  </div>
+
+    <div class="row">
+        <!-- Kolom 5 -->
+        <div class="col">
+            <div class="post__item" data-v-60cf8313 data-v-aabb82a2>
+              <a href="/ideas/berikut-langkah-langkah-membuat-content-plan" class="post-img" data-v-60cf8313>
+                <img src="https://suitmedia.static-assets.id/storage/files/6120/conversions/shutterstock_2206075211-medium.jpg" class="fit-img" />
+              </a>
+              <div class="post-info" data-v-60cf8313>
+                <time class="post-time" data-v-60cf8313>21 August 2023</time>
+                <h3 class="post-title" data-v-60cf8313>
+                  <a href="/ideas/berikut-langkah-langkah-membuat-content-plan" data-v-60cf8313>Berikut Langkah-langkah Membuat Content Plan</a>
+                </h3>
+                
+              </div>
+              <a href="/ideas/berikut-langkah-langkah-membuat-content-plan" class="post-read-more" data-v-60cf8313>
+                <span class="link-text" data-v-60cf8313>
+                </span>
+              </a>
+            </div>
+          </div>
+        
+          <!-- Kolom 6 -->
+          <div class="col">
+            <div class="post__item" data-v-60cf8313 data-v-aabb82a2>
+              <a href="/ideas/pentingnya-peran-content-writing-dalam-perusahaan" class="post-img" data-v-60cf8313>
+                <img src="https://suitmedia.static-assets.id/storage/files/6116/conversions/shutterstock_1179932260-medium.jpg" class="fit-img" />
+              </a>
+              <div class="post-info" data-v-60cf8313>
+                <time class="post-time" data-v-60cf8313>18 August 2023</time>
+                <h3 class="post-title" data-v-60cf8313>
+                  <a href="/ideas/pentingnya-peran-content-writing-dalam-perusahaan" data-v-60cf8313>Pentingnya Peran Content Writing dalam Perusahaan</a>
+                </h3>
+                
+              </div>
+              <a href="/ideas/pentingnya-peran-content-writing-dalam-perusahaan" class="post-read-more" data-v-60cf8313>
+                <span class="link-text" data-v-60cf8313>
+                </span>
+              </a>
+            </div>
+          </div>
+        
+          <!-- Kolom 7 -->
+          <div class="col">
+            <div class="post__item" data-v-60cf8313 data-v-aabb82a2>
+              <a href="/ideas/riset-pasar-pengertian-metode-jenis-dan-contoh-penerapan" class="post-img" data-v-60cf8313>
+                <img src="https://suitmedia.static-assets.id/storage/files/6113/conversions/Shutterstock_316832312-medium.jpg" class="fit-img" />
+              </a>
+              <div class="post-info" data-v-60cf8313>
+                <time class="post-time" data-v-60cf8313>15 August 2023</time>
+                <h3 class="post-title" data-v-60cf8313>
+                  <a href="/ideas/riset-pasar-pengertian-metode-jenis-dan-contoh-penerapan" data-v-60cf8313>Riset Pasar: Pengertian, Metode, Jenis, dan Contoh Penerapan</a>
+                </h3>
+               
+              </div>
+              <a href="/ideas/riset-pasar-pengertian-metode-jenis-dan-contoh-penerapan" class="post-read-more" data-v-60cf8313>
+                <span class="link-text" data-v-60cf8313>
+                </span>
+              </a>
+            </div>
+          </div>
+        
+          <!-- Kolom 8 -->
+          <div class="col">
+            <div class="post__item" data-v-60cf8313 data-v-aabb82a2>
+              <a href="/ideas/pentingnya-newsletter-untuk-marketing-tools-perusahaan" class="post-img" data-v-60cf8313>
+                <img src="https://suitmedia.static-assets.id/storage/files/6037/conversions/Shutterstock_2175509531-medium.jpg" class="fit-img" />
+              </a>
+              <div class="post-info" data-v-60cf8313>
+                <time class="post-time" data-v-60cf8313>9 August 2023</time>
+                <h3 class="post-title" data-v-60cf8313>
+                  <a href="/ideas/pentingnya-newsletter-untuk-marketing-tools-perusahaan" data-v-60cf8313>Pentingnya Newsletter untuk Marketing Tools Perusahaan</a>
+                </h3>
+                
+              </div>
+              <a href="/ideas/pentingnya-newsletter-untuk-marketing-tools-perusahaan" class="post-read-more" data-v-60cf8313>
+                <span class="link-text" data-v-60cf8313>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+

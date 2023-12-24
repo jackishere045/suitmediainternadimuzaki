@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff9100;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s, top 0.3s;
+}
+
+#site-header {
+    background-color: #ff9100;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+#content {
+    padding: 20px;
+    margin-top: 60px; /* Adjust margin-top to match header height */
+}
+
+h1 {
+    font-size: 2.6em;
+    font-weight: 400;
+    line-height: .75;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo {
+    max-width: 110px; /* Sesuaikan dengan lebar maksimal yang diinginkan */
+    width: 100%;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+nav a.active {
+    border-color: white;
+}
+.content {
+    background-color: #f8f8f8;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax {
+    position: relative;
+    height: 450px;
+    margin-top: 57px;
+    overflow: hidden;
+}
+
+.parallax img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+    transform: skewY(-7deg);
+    transform-origin: bottom;
+    filter: brightness(0.5);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.news-list {
+    padding: 20px;
+}
+
+.info-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pagination-info,
+.show-per-page,
+.sort-by {
+    flex-grow: 1;
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.list-post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 400px; /* Sesuaikan dengan tinggi banner */
+}
+
+.post-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.post-card h3 {
+    margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
